@@ -24,7 +24,7 @@ Edit `run_develop.sh` and fill the two needed environment variables. Then make t
 
 You can get the values for `COOKIE` and `CSRF_TOKEN` from your browser. Just log into gaug.es, open the inspector, navigate to the “Network” tab and look at the XHR requests. They will have these two headers so you can just copy the two values from there.
 
-
+![extract variables from browser requests](https://user-images.githubusercontent.com/790262/92305953-25fcb600-ef8c-11ea-88ee-b8ba9b5c9be2.jpg)
 
 Output in your terminal should look like this:
 
